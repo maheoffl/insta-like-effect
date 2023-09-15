@@ -1,1 +1,1 @@
-# insta-double-effect
+# insta-double click -effect
