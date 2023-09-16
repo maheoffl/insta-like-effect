@@ -37,9 +37,10 @@ body {
   transition: transform ease 0.5s;
 }
 
-.like i{
+.like i {
   position: absolute;
   font-size: 30px;
+  cursor: pointer;
 }
 #one {
   opacity: 1;
