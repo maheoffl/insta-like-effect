@@ -26,14 +26,25 @@ body {
   object-fit: cover;
   object-position: center;
 }
-.container i{
-    color: #fff;
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    opacity: 0;
-    transition: transform ease 0.5s;
+.container > i {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: transform ease 0.5s;
+}
 
+.like i{
+  position: absolute;
+  font-size: 30px;
+}
+#one {
+  opacity: 1;
+}
+#two {
+  opacity: 0;
+  color: red;
 }
